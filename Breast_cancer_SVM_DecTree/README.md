@@ -14,13 +14,9 @@ Results show that the SVM model with a radial kernel performs better.
 All project annotations are in Spanish.
 
 ## About the Dataset
-The dataset used is the **Breast Cancer Wisconsin Diagnostic Dataset**, provided by `sklearn.datasets`. It contains information on 569 breast tumors, each characterized by 30 attributes derived from biopsy images, such as:
-- **mean radius** (average tumor radius).
-- **mean texture** (average texture).
-- **mean perimeter** (average perimeter).
-- **worst concave points** (most pronounced concave points), among others.
+The dataset used is the **Breast Cancer Wisconsin Diagnostic Dataset**, provided by `sklearn.datasets`. It contains information on 569 breast tumors, each characterized by 30 attributes derived from biopsy images.
 
-The target labels (`target`) indicate whether the tumor is **malignant (0)** or **benign (1)**.
+The target labels (`target`) indicate whether the tumor is **malignant (1)** or **benign (0)**.
 
 ## Requirements and Execution
 To run the project, the following Python libraries need to be installed:
